@@ -1,6 +1,12 @@
 {
     "name": "geko-products/oauth-client",
     "type": "library",
+    "authors": [
+        {
+            "name": "Jonathan Dey",
+            "email": "jon@trenttech.co.uk"
+        }
+    ],
     "require": {
         "league/oauth2-client": "^2.6"
     },
@@ -17,11 +23,5 @@
         "psr-4": {
             "GekoProducts\\Tests\\": "tests/"
         }
-    },
-    "authors": [
-        {
-            "name": "Jonathan Dey",
-            "email": "jon@trenttech.co.uk"
-        }
-    ]
+    }
 }
